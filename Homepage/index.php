@@ -56,8 +56,9 @@
 		<link rel="stylesheet" href="./css/fullpage.css">
 		
 		<style>
-			@font-face {font-family:'S-CoreDream';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');font-weight:normal;font-style:normal}
-			
+			@font-face {font-family:'S-CoreDream-5Medium';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');font-weight:normal;font-style:normal}
+			@font-face {font-family: 'S-CoreDream'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 			* { box-sizing: border-box; font-family:S-CoreDream; }
 			html, body {margin:0;padding:0;width:100%;height:100%;-webkit-text-size-adjust:none}
 			p, ul, ol, li, dl, dt, dd {list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}
@@ -166,12 +167,12 @@
 			.outer {display:table;width:100%;height:100%;}
 			.inner {display:table-cell;text-align:center;vertical-align:middle}
 			.card {display:inline-block;width:645px;height:100%;border-radius:15px;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);overflow:hidden}
-			.title {width:100%;height:80px;line-height:80px;background:#fa8478;color:#fff;font-size:25px}
+			.title {width:100%;height:80px;line-height:80px;background:#fa8478;font-family:'S-CoreDream-5Medium';color:#fff;font-size:28px}
 			.content {width:100%;height:100%;padding:20px;text-align:left}
-			.content_txt_i {height:60px;font-size:15px;}
+			.content_txt_i {height:60px;font-size:18px;color:#FE6C93}
 			.content_txt_img {width:35%;font-size:15px;float:left}
-			.content_txt_t {width:65%;margin-top:30px;padding-left:30px;line-height:50px;font-size:18px;color:00abc6;float:right}
-			.content_txt_c {width:65%;padding-left:30px;line-height:20px;font-size:12px;color:#111;float:right}
+			.content_txt_t {width:65%;margin-top:30px;padding-left:30px;line-height:50px;font-size:18px;color:#24A6BD;float:right}
+			.content_txt_c {width:65%;padding-left:30px;line-height:22px;font-size:14px;color:#111;float:right}
 			.displaynone {display:none}
 			
 			/* S : 원본 수정 */
@@ -294,8 +295,8 @@
 			}
 		</style>
 
-		<script src="./js/jquery-3.4.1.min.js"></script>
-		<script src="./js/fullpage.js"></script>
+		<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="./js/fullpage.js"></script>
 	</head>
 
 	<body>
@@ -352,7 +353,7 @@
 						<div class="card">
 							<p class="title">"좀 더 똑똑한 소비습관"</p>
 							<div class="content">
-								<p class="content_txt_i zoomIn">플러스페이로 결제하면 다양한 혜택과 정보를 받을 수 있습니다.</p>
+								<p class="content_txt_i zoomIn">플러스페이앱에 무료 가입하면 다양한 혜택과 정보를 받을 수 있습니다.</p>
 								<p class="content_txt_img bounceInDown"><img width="98%" src="./image/Phone_img_1.png" alt="플러스페이 앱"></p>
 								<p class="content_txt_t fadeInLeft">이왕이면 할인된 가격으로</p>
 								<p class="content_txt_c fadeInUp">같은 상품이라면 할인된 가격으로...<br>플러스페이 앱 가맹점에서 등록/제시한 할인된 가격의 쿠폰을 구매하여 이용 또는 가맹점의 할인쿠폰을 다운받아 해당 가맹점에 제시하여 이용 가능합니다.</p>
@@ -372,10 +373,9 @@
 								<div class="content">
 									<p class="content_txt_i zoomIn">내가 서 있는곳, 내가 원하는 장소의 매장정보를 보여드립니다.</p>
 									<p class="content_txt_img bounceInDown"><img width="98%" src="./image/Phone_img_2.png" alt="플러스페이 앱"></p>
-									<p class="content_txt_t fadeInLeft">이왕이면 할인된 가격으로</p>
-									<p class="content_txt_c fadeInUp">같은 상품이라면 할인된 가격으로...<br>플러스페이 앱 가맹점에서 등록/제시한 할인된 가격의 쿠폰을 구매하여 이용 또는 가맹점의 할인쿠폰을 다운받아 해당 가맹점에 제시하여 이용 가능합니다.</p>
-									<p class="content_txt_t fadeInLeft">최대 2.5% 포인트 적립까지</p>
-									<p class="content_txt_c fadeInUp">같은상품 같은가격 이지만...<br>플러스페이로 결제하면 최대 2.5%의 포인트 적립혜택 / 포인트는 플러스페이 가맹점의 상품결제 또는 기프티콘등으로 사용가능 합니다.</p>
+									<p class="content_txt_t fadeInLeft">위치정보를 기반으로...</p>
+									<p class="content_txt_c fadeInUp">플러스페이 앱에서는 내가 위치한곳을 기준으로 가맹점 리스트를 확인할 수 있습니다.</p>
+									<p class="content_txt_c fadeInUp">매장정보를 확인하고, 해당 매장에서 판매하는 할인쿠폰 및 이벤트 확인이 가능합니다.</p>
 								</div>
 							</div>
 						</div>
@@ -466,7 +466,7 @@
 				$('#fullpage').fullpage({
 					verticalCentered: false,
 					navigation: true,
-				//	slidesNavigation: true,
+					slidesNavigation: true,
 					navigationTooltips: ['Page 1', 'Page 2', 'Any text!'],
 				//	showActiveTooltip: true,
 				//	menu: '#menu',
@@ -480,16 +480,12 @@
 								$('#section' + origin.index + ' .outer').hide();
 							}
 						}
-	/*					else if(destination.index == 1){
-							alert(destination.index);
-							alert(origin.index);
-							alert(direction);alert(direction.index);
-						//	$('#section' + destination.index + ' .outer').show();
-							if(origin.index || origin.index != '') {
-						//		$('#section' + origin.index + ' .outer').hide();
+						else if(destination.index == 1){
+							$('#section' + destination.index + ' #slide0 .outer').show();
+							if(origin.index || origin.index == 0 || origin.index != '') {
+								$('#section' + origin.index + ' .outer').hide();
 							}
 						}
-						*/
 					},
 					afterSlideLoad: function(section, origin, destination, direction){
 						$('#section' + section.index + ' #slide' + destination.index + ' .outer').show(); // 현재 섹션의 현재슬라이드 보이기
