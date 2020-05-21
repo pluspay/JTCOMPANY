@@ -352,7 +352,7 @@
 						<div class="card">
 							<p class="title">"좀 더 똑똑한 소비습관"</p>
 							<div class="content">
-								<p class="content_txt_i zoomIn">플러스페이로 결제하면 다양한 혜택과 정보를 받을 수 있습니다.11111111111111111111111111</p>
+								<p class="content_txt_i zoomIn">플러스페이로 결제하면 다양한 혜택과 정보를 받을 수 있습니다.</p>
 								<p class="content_txt_img bounceInDown"><img width="98%" src="./image/phone_logo.png" alt="플러스페이 앱"></p>
 								<p class="content_txt_t fadeInLeft">이왕이면 할인된 가격으로</p>
 								<p class="content_txt_c fadeInUp">같은 상품이라면 할인된 가격으로...<br>플러스페이 앱 가맹점에서 등록/제시한 할인된 가격의 쿠폰을 구매하여 이용 또는 가맹점의 할인쿠폰을 다운받아 해당 가맹점에 제시하여 이용 가능합니다.</p>
