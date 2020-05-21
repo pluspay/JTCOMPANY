@@ -1,0 +1,22 @@
+{
+    "host": "jtcompany.phps.kr",
+    "username": "jtcompany",
+    "password": "tt140600^^",
+    "remotePath": "/www",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode/*",
+        "/.vscode/chrome",
+        "/.vscode/.key",
+        "/.vscode/ftp-kr.task.json",
+        "/.vscode/ftp-kr.error.log",
+        "/.vscode/ftp-kr.sync.*.json",
+        "/.vscode/ftp-kr.diff.*"
+    ]
+}
