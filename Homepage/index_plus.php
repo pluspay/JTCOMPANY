@@ -4,7 +4,6 @@
 		<meta http-equiv="Content-Type" content="text/html">
 		<meta name="Referrer" content="origin">
 		<meta name="author" content="플러스페이 Pluspay" />
-		
 		<meta http-equiv="Content-Script-Type" content="text/javascript">
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +31,7 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="http://jtcompany.phps.kr/pluspay/image/ico/logo_pluspay_0.png">
 		
-		<title>우리가게통합솔루션 : 홍보 결제 적립 고객관리를 한번에 : 플러스페이(Pluspay)</title>
+		<title>플러스페이(Pluspay) : 매장정보, 포인트적립, 할인쿠폰, 결제까지 한번에!</title>
 		
 		<link rel="apple-touch-icon" sizes="57x57" href="image/ico/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="image/ico/apple-icon-60x60.png">
@@ -54,19 +53,17 @@
 		<link rel="canonical" href="http://www.modupluspay.kr">
 		
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo">
-		<link rel="stylesheet" href="./css/fullpage.css">
-		
+		<link rel="stylesheet" type="text/css" href="./css/full-page-scroll.css">
 		<style>
 			@font-face {font-family:'S-CoreDream-5Medium';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');font-weight:normal;font-style:normal}
 			@font-face {font-family: 'S-CoreDream'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
 
-			* { box-sizing: border-box; font-family:S-CoreDream; }
-			html, body {margin:0;padding:0;width:100%;height:100%;-webkit-text-size-adjust:none;overflow:scroll}
+			* { box-sizing: border-box; font-family:S-CoreDream}
+			html, body {margin:0;padding:0;width:100%;height:100%;-webkit-text-size-adjust:none;overflow:auto;background:transparent}
 			p, ul, ol, li, dl, dt, dd {list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}
 			img {border:none}
 			address{font-style:unset}
 
-			
 			/* S : Fixed header and footer ---------- */
 			#header, #footer {
 				position:fixed;
@@ -133,60 +130,56 @@
 			/* E : Fixed LeftLayer ------------------ */
 	
 
+			
+
+			
 			/* S : background and styles ------------ */
-			/* S : background and styles ------------ */
-			#section0,
-			#section1,
-			#section2,
-			#section3,
-			#section4,
-			#section5,
-			#section6,
-			#section7,
-			#section8,
-			#section9{
-				background-size: cover;
-				background-attachment: fixed;
-				padding:80px 80px 180px 400px;
-			}
 
 			#section0{
 				background-image: url(./image/BG_PLUSPAY.png);
 				background-size: initial;
+				background-attachment: fixed;
+				padding:80px 80px 180px 400px;
 			}
 			#section1{
 				background-image: linear-gradient(22.5deg, rgba(67, 67, 67, 0.02) 0%, rgba(67, 67, 67, 0.02) 29%,rgba(47, 47, 47, 0.02) 29%, rgba(47, 47, 47, 0.02) 37%,rgba(23, 23, 23, 0.02) 37%, rgba(23, 23, 23, 0.02) 55%,rgba(182, 182, 182, 0.02) 55%, rgba(182, 182, 182, 0.02) 69%,rgba(27, 27, 27, 0.02) 69%, rgba(27, 27, 27, 0.02) 71%,rgba(250, 250, 250, 0.02) 71%, rgba(250, 250, 250, 0.02) 100%),linear-gradient(67.5deg, rgba(117, 117, 117, 0.02) 0%, rgba(117, 117, 117, 0.02) 14%,rgba(199, 199, 199, 0.02) 14%, rgba(199, 199, 199, 0.02) 40%,rgba(33, 33, 33, 0.02) 40%, rgba(33, 33, 33, 0.02) 48%,rgba(135, 135, 135, 0.02) 48%, rgba(135, 135, 135, 0.02) 60%,rgba(148, 148, 148, 0.02) 60%, rgba(148, 148, 148, 0.02) 95%,rgba(53, 53, 53, 0.02) 95%, rgba(53, 53, 53, 0.02) 100%),linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 6%,rgba(251, 251, 251, 0.02) 6%, rgba(251, 251, 251, 0.02) 18%,rgba(2, 2, 2, 0.02) 18%, rgba(2, 2, 2, 0.02) 27%,rgba(253, 253, 253, 0.02) 27%, rgba(253, 253, 253, 0.02) 49%,rgba(128, 128, 128, 0.02) 49%, rgba(128, 128, 128, 0.02) 76%,rgba(150, 150, 150, 0.02) 76%, rgba(150, 150, 150, 0.02) 100%),linear-gradient(90deg, #ffffff,#ffffff);
+				background-size: cover;
+				background-attachment: fixed;
+				padding:80px 80px 180px 400px;
 			}
 			#section2{
 				background-image: repeating-linear-gradient(90deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),repeating-linear-gradient(0deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),linear-gradient(90deg, #ffffff,#ffffff);
+				background-size: cover;
+				background-attachment: fixed;
+				padding:80px 80px 180px 400px;
 			}
 			#section3{
 				background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+				background-size: cover;
+				background-attachment: fixed;
+				padding:80px 80px 180px 400px;
 			}
 			#section4{
 				background-image: linear-gradient(22.5deg, rgba(67, 67, 67, 0.02) 0%, rgba(67, 67, 67, 0.02) 29%,rgba(47, 47, 47, 0.02) 29%, rgba(47, 47, 47, 0.02) 37%,rgba(23, 23, 23, 0.02) 37%, rgba(23, 23, 23, 0.02) 55%,rgba(182, 182, 182, 0.02) 55%, rgba(182, 182, 182, 0.02) 69%,rgba(27, 27, 27, 0.02) 69%, rgba(27, 27, 27, 0.02) 71%,rgba(250, 250, 250, 0.02) 71%, rgba(250, 250, 250, 0.02) 100%),linear-gradient(67.5deg, rgba(117, 117, 117, 0.02) 0%, rgba(117, 117, 117, 0.02) 14%,rgba(199, 199, 199, 0.02) 14%, rgba(199, 199, 199, 0.02) 40%,rgba(33, 33, 33, 0.02) 40%, rgba(33, 33, 33, 0.02) 48%,rgba(135, 135, 135, 0.02) 48%, rgba(135, 135, 135, 0.02) 60%,rgba(148, 148, 148, 0.02) 60%, rgba(148, 148, 148, 0.02) 95%,rgba(53, 53, 53, 0.02) 95%, rgba(53, 53, 53, 0.02) 100%),linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 6%,rgba(251, 251, 251, 0.02) 6%, rgba(251, 251, 251, 0.02) 18%,rgba(2, 2, 2, 0.02) 18%, rgba(2, 2, 2, 0.02) 27%,rgba(253, 253, 253, 0.02) 27%, rgba(253, 253, 253, 0.02) 49%,rgba(128, 128, 128, 0.02) 49%, rgba(128, 128, 128, 0.02) 76%,rgba(150, 150, 150, 0.02) 76%, rgba(150, 150, 150, 0.02) 100%),linear-gradient(90deg, #ffffff,#ffffff);
-				
+				background-size: cover;
+				background-attachment: fixed;
+				padding:80px 80px 180px 400px;
 			}
 			#section5{
 				background: radial-gradient(circle at 57% 36%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 10%,transparent 10%, transparent 100%),radial-gradient(circle at 22% 61%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 68% 97%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 41%,transparent 41%, transparent 100%),radial-gradient(circle at 57% 89%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 30%,transparent 30%, transparent 100%),radial-gradient(circle at 39% 80%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 88% 71%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 30%,transparent 30%, transparent 100%),linear-gradient(0deg, rgb(255,255,255),rgb(255,255,255));
+				background-size: cover;
+				background-attachment: fixed;
+				padding:80px 80px 180px 400px;
 			}
 			#section6{
 				background:rgba(254,108,147,0.8);
-			}
-			#section7{
-				background:rgba(254,108,147,0.8);
-			}
-			#section7{
-				background:rgba(000,108,147,0.8);
-			}
-			#section9{
-				background:rgba(111,108,147,0.8);
+				background-size: cover;
+				background-attachment: fixed;
+				padding:80px 80px 180px 400px;
 			}
 			/* E : background and styles ------------ */
 			
-
-			.outer {display:table;width:100%;height:100%;}
-			.inner {display:table-cell;text-align:center;vertical-align:middle}
+			.inner {display:table-cell;width:100%;height:100%;text-align:center;vertical-align:middle}
 			.card {display:inline-block;width:645px;height:100%;border-radius:15px;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);overflow:hidden}
 			.title {width:100%;height:80px;line-height:80px;background:#fa8478;font-family:'S-CoreDream-5Medium';color:#fff;font-size:28px}
 			.content {width:100%;height:100%;padding:20px;text-align:left}
@@ -225,172 +218,16 @@
 			
 			.bottomtxt100 {font-size:100px;font-family:Baloo;color:#fff}
 			.bottomtxt100_2 {font-size:100px;font-family:Baloo;color:#FFE400}
-			/* S : 원본 수정 */
-			#fp-nav ul li,
-			.fp-slidesNav ul li {
-				margin: 15px;
-			}
-			#fp-nav ul li a span,
-			.fp-slidesNav ul li a span {
-				background: #ff6699;
-				height:10px;width:10px;
-			}
-			#fp-nav ul li:hover a span,
-			.fp-slidesNav ul li:hover a span{
-				background: #fa8478;
-				height:20px;width:20px;
-				margin: -7px 0 0 -6px;
-			}
-			#fp-nav ul li .fp-tooltip {
-				color: #111;
-			}
-			.fp-controlArrow.fp-prev {
-				left: 365px;
-				border-color: transparent #fe6c93 transparent transparent;
-			}
-			.fp-controlArrow.fp-next {
-				border-color: transparent transparent transparent #fe6c93;
-			}
-			#fp-nav.fp-right {
-				right: 57px;
-			}
-			#fp-nav ul li a.active span,
-			.fp-slidesNav ul li a.active span,
-			#fp-nav ul li:hover a.active span,
-			.fp-slidesNav ul li:hover a.active span{
-				background:#FFD9EC;
-				height: 25px;
-				width: 25px;
-				margin: -9px;
-				border:#ff6699 5px solid;
-			}
-			/* E : 원본 수정 */
 			
+			.main {position:relative;width:100%;height:100%}
+			.section {display:table;table-layout:fixed;width:100vw;height:100vh;background:transparent}
+			.outer {display:table;table-layout:fixed;width:100%;height:100%;}
 			
-			/* 페이지 페이드인 */
-			.intro {animation-name:SceneChange;animation-duration:0.5s;animation-delay:0.3s;animation-iteration-count:1;animation-fill-mode:both}
-			@keyframes SceneChange {
-				0% {
-					opacity:0
-				} 
-				100% {
-					opacity:1
-				}
-			}
-			
-			/* 이미지 바운스 */
-			.bounceInDown{animation-name:bounceInDown;animation-duration:1s;animation-delay:0.5s;animation-iteration-count:1;animation-fill-mode:both}
-			@keyframes bounceInDown{
-				0%,100%,60%,75%,90%{
-					-webkit-transition-timing-function:cubic-bezier(0.215,.61,.355,1);
-					transition-timing-function:cubic-bezier(0.215,.61,.355,1)
-				}
-				0%{
-					opacity:0;
-					-webkit-transform:translate3d(0,-3000px,0);
-					-ms-transform:translate3d(0,-3000px,0);
-					transform:translate3d(0,-3000px,0)
-				}
-				60%{
-					opacity:1;
-					-webkit-transform:translate3d(0,25px,0);
-					-ms-transform:translate3d(0,25px,0);
-					transform:translate3d(0,25px,0)
-				}
-				75%{
-					-webkit-transform:translate3d(0,-10px,0);
-					-ms-transform:translate3d(0,-10px,0);
-					transform:translate3d(0,-10px,0)
-				}
-				90%{
-					-webkit-transform:translate3d(0,5px,0);
-					-ms-transform:translate3d(0,5px,0);
-					transform:translate3d(0,5px,0)
-				}
-				100%{
-					-webkit-transform:none;
-					-ms-transform:none;
-					transform:none
-				}
-			}
-			
-			/* 줌인 */
-			.zoomIn {animation-name:zoomIn;animation-duration:0.6s;animation-delay:0.8s;animation-iteration-count:1;animation-fill-mode:both}
-			@keyframes zoomIn {
-				0%{
-					opacity:0;
-					-webkit-transform:scale3d(.3,.3,.3);
-					-ms-transform:scale3d(.3,.3,.3);
-					transform:scale3d(.3,.3,.3)
-				}
-				50%{
-					opacity:1
-				}
-			}
-			
-			.fadeInLeft {animation-name:fadeInLeft;animation-duration:0.7s;animation-delay:1s;animation-iteration-count:1;animation-fill-mode:both}
-			@keyframes fadeInLeft {
-				 0%{
-					opacity:0;
-					-webkit-transform:translate3d(30%,0,0);
-					-ms-transform:translate3d(30%,0,0);
-					transform:translate3d(30%,0,0)
-				}
-				100%{
-					opacity:1;
-					-webkit-transform:none;
-					-ms-transform:none;
-					transform:none
-				}
-			}
-			
-			.fadeInUp {animation-name:fadeInUp;animation-duration:0.8s;animation-delay:1.2s;animation-iteration-count:1;animation-fill-mode:both}
-			@keyframes fadeInUp {
-				0%{
-					opacity:0;
-					-webkit-transform:translate3d(0,30%,0);
-					-ms-transform:translate3d(0,30%,0);
-					transform:translate3d(0,30%,0)
-				}
-				100%{
-					opacity:1;
-					-webkit-transform:none;
-					-ms-transform:none;
-					transform:none
-				}
-			}
-			
-			.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;animation-duration:0.8s;animation-delay:0.9s;animation-iteration-count:1;animation-fill-mode:both}
-			@keyframes lightSpeedIn {
-				0%{
-					-webkit-transform:translate3d(100%,0,0) skewX(-30deg);
-					transform:translate3d(100%,0,0) skewX(-30deg);
-					opacity:0
-				}
-				60%{
-					-webkit-transform:skewX(20deg);
-					transform:skewX(20deg);
-					opacity:1
-				}
-				80%{
-					-webkit-transform:skewX(-5deg);
-					transform:skewX(-5deg);
-					opacity:1
-				}
-				100%{
-					-webkit-transform:none;
-					transform:none;
-					opacity:1
-				}
-			}
 		</style>
-
-		<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="./js/fullpage.js"></script>
 	</head>
 
 	<body>
-		<div id="header">
+ 		<div id="header">
 			<img src="./image/Logo_pluspay_c_w.png" height="100%" alt="플러스페이">
 		</div>
 		
@@ -419,7 +256,7 @@
 						&nbsp;
 					</li>
 					<li class="menu-txt">
-						<p id="txtchange">파트너 제안</p>
+						파트너 제안
 					</li>
 				</ul>
 			</div>
@@ -437,8 +274,32 @@
 		</div>
 		<div style="position:fixed;top:50px;left:40px;color:white;z-index:9999;" id="callbacksDiv"></div>
 
+		<div id="footer">
+			<ul class="com-info">
+				<li class="logo">
+					<img src="./image/Logo_pluspay_w_h.png" height="100%" style="opacity: 0.3; vertical-align: middle" alt="플러스페이">
+				</li>
+				<li class="center">
+					<div class="etc-menu">
+						<a href="#" onclick="fn_clause01();">이용약관</a> │ 
+						<a href="#" onclick="fn_clause02();">개인정보취급방침</a> | 
+						<a href="#" onclick="fn_clause03();">이메일무단수집거부</a> │ 
+						<a href="hhttp://www.modupluspay.kr" target="_blank" style="cursor:pointer;">플러스페이소개</a>
+					</div>
+					<address class="etc-info">
+						<a href="http://www.modupluspay.kr">주식회사 모두페이 (상표:플러스페이 Pluspay)</a> | 대표자 : 옥정혁 | 사업자번호 : 162-87-00648 | 통신판매 : 제2018-인천연수구-0431호 <br>
+						카카오채널 : @플러스페이 | 대표번호 : 1670-0904 │ (우) 21988 인천광역시 연수구 송도미래로9 , 3동 703호 (송도동, 브레인밸리) <br>
+						Copyright 2016 Pluspay All Rights Reserved. Design By http://www.modupluspay.kr
+					</address>
+				</li>
+				<li class="right">
+					<img src="./image/android.png" width="100%" style="margin:3px 0;box-shadow:0px 0px 20px 10px rgba(102,186,255,0.4); cursor:pointer" onclick="window.open('https://play.google.com/store/apps/details?id=kr.co.moudpay.pay&hl=ko');" alt="플러스페이 다운로드 (안드로이드)">
+					<img src="./image/ios.png" width="100%" style="margin:3px 0;box-shadow:0px 0px 20px 10px rgba(243,97,166,0.4); cursor:pointer" onclick="window.open('https://itunes.apple.com/kr/app/apple-store/id1440562969');" alt="플러스페이 다운로드 (애플)">
+				</li>
+			</ul>
+		</div>
 
-		<div id="fullpage" style="display:none">
+		<div class="main" id="main">
 			<section class="section" id="section0">
 				<div class="outer intro">
 					<div class="inner">
@@ -612,122 +473,33 @@
 				</div>
 			</section>
 		</div>
-
-		<div id="fullpage2" style="display:none">
-			<section class="section" id="section7">
-				<div class="outer intro">
-					<div class="inner">
-						111111111111111111111111111111111
-					</div>
-				</div>
-			</section>
-			<section class="section" id="section8">
-				<div class="outer intro">
-					<div class="inner">
-						222222222222222222
-					</div>
-				</div>
-			</section>
-			<section class="section" id="section9">
-				<div class="outer intro">
-					<div class="inner">
-						3333333333333333333333333333
-					</div>
-				</div>
-			</section>
-		</div>
-
-
-		<div id="footer">
-			<ul class="com-info">
-				<li class="logo">
-					<img src="./image/Logo_pluspay_w_h.png" height="100%" style="opacity: 0.3; vertical-align: middle" alt="플러스페이">
-				</li>
-				<li class="center">
-					<div class="etc-menu">
-						<a href="#" onclick="fn_clause01();">이용약관</a> │ 
-						<a href="#" onclick="fn_clause02();">개인정보취급방침</a> | 
-						<a href="#" onclick="fn_clause03();">이메일무단수집거부</a> │ 
-						<a href="hhttp://www.modupluspay.kr" target="_blank" style="cursor:pointer;">플러스페이소개</a>
-					</div>
-					<address class="etc-info">
-						<a href="http://www.modupluspay.kr">주식회사 모두페이 (상표:플러스페이 Pluspay)</a> | 대표자 : 옥정혁 | 사업자번호 : 162-87-00648 | 통신판매 : 제2018-인천연수구-0431호 <br>
-						카카오채널 : @플러스페이 | 대표번호 : 1670-0904 │ (우) 21988 인천광역시 연수구 송도미래로9 , 3동 703호 (송도동, 브레인밸리) <br>
-						Copyright 2016 Pluspay All Rights Reserved. Design By http://www.modupluspay.kr
-					</address>
-				</li>
-				<li class="right">
-					<img src="./image/android.png" width="100%" style="margin:3px 0;box-shadow:0px 0px 20px 10px rgba(102,186,255,0.4); cursor:pointer" onclick="window.open('https://play.google.com/store/apps/details?id=kr.co.moudpay.pay&hl=ko');" alt="플러스페이 다운로드 (안드로이드)">
-					<img src="./image/ios.png" width="100%" style="margin:3px 0;box-shadow:0px 0px 20px 10px rgba(243,97,166,0.4); cursor:pointer" onclick="window.open('https://itunes.apple.com/kr/app/apple-store/id1440562969');" alt="플러스페이 다운로드 (애플)">
-				</li>
-			</ul>
-		</div>
 		
-		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+       
+		<script src="./js/full-page-scroll.js"></script>
+        <script src="./js/jquery-3.4.1.min.js"></script>
 		<script type="text/javascript">
-
-			function fullPageInit(ID) {
-				$('#fullpage' + ID).css('display', 'block');
-				new fullpage('#fullpage' + ID, {
-					verticalCentered: false,
-					navigation: true,
-					css3:false
-				});
-			//	fullpage_api.reBuild();
-				initialization();
-				fullpage_api.setAllowScrolling(true);
-			//	fullpage_api.reBuild();
-			//	
-			//	fullpage_api.destroy('scrolls');
-			};
-			$(document).ready(function(){
-				fullPageInit('');
-			});
-			
-			$('.menu').click(function() {
-				var id = $('.menu').index(this);
-
-				if(id != 2) {
-					var _width = '650';
-					var _height = '450';
-					if(650 > $( window ).width()) {
-						var _width = $( window ).width();
-						var _height = $( window ).height();
-					}
-					var _left = Math.ceil(( $(window).width() - _width ) / 2);
-					var _top = Math.ceil(( $(window).height() - _height ) / 2);
-					$('#fullpage').css('display', 'none');
-					$('#fullpage2').css('display', 'none');
-/*			
-					$('body').on('scroll touchmove mousewheel', function(event) {
-						event.preventDefault();     
-						event.stopPropagation();     
-						return false; 
-					});
-					*/
-				//	$('body').append("");
-				//	$('body').append("<div id='DIM' style='position:absolute;top:0;left:0;width:100%;height:100%;z-index:888;background:rgba(0,0,0,0.7)'></div>");
-				}
-
-				if(id == '0') {
-					$('body').append("<div id='PopupWIN' style='position:absolute;top:" + _top + "px;left:" + _left + "px;width:" + _width + "px;height:" + _height + "px;z-index:999;background:#fff'></div>");
-					$('#PopupWIN').load('PayLIST.php');
-				} else if(id == '1') {
-					fullpage_api.destroy('#fullpage');
-				//	initialization();
-					fullPageInit(2);
-				} else if(id == '2') {
-					Kakao.init('96575953227dba83884781c00b50b08e')
-					Kakao.Channel.chat({
-						channelPublicId: '_CKPQT',
-					});
-					Kakao.Channel.addChannel({
-						channelPublicId: '_CKPQT',
-					});
-				} else {
-					
-				}
-			});
+            function MenuSelect(Smenu) {
+                if(Smenu == 'Select_1') {
+                    var Smenu = '1';
+                    $('.Select_1').css('display', 'none');
+                } if(Smenu == 'Select_2') {
+                    var Smenu = '12';
+                    $('.Select_2').css('display', 'none');
+                } else {
+                    var Smenu = '0';
+                }
+                
+                new fullScroll({
+                    displayDots: true,
+                    dotsPosition: 'left',
+                    animateTime: 0.8,
+                    animateFunction: 'ease',
+                }, Smenu);
+            }
+            $(document).ready(function(){
+                MenuSelect(0);
+            });
+		
 		</script>
-	</body>
+    </body>
 </html>

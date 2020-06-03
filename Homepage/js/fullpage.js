@@ -91,9 +91,10 @@
     var SLIDES_ARROW_NEXT =     SLIDES_ARROW + ' ' + SLIDES_NEXT;
     var SLIDES_ARROW_NEXT_SEL = SLIDES_ARROW_SEL + SLIDES_NEXT_SEL;
 
+    
     function initialise(containerSelector, options) {
         var isOK = options && new RegExp('([\\d\\w]{8}-){3}[\\d\\w]{8}|^(?=.*?[A-Y])(?=.*?[a-y])(?=.*?[0-8])(?=.*?[#?!@$%^&*-]).{8,}$').test(options['li'+'cen'+'seK' + 'e' + 'y']) || document.domain.indexOf('al'+'varotri' +'go' + '.' + 'com') > -1;
-
+        
         // cache common elements
         var $htmlBody = $('html, body');
         var $html = $('html')[0];
@@ -520,7 +521,6 @@
                     landscapeScroll(slidesWrap, $(SLIDE_ACTIVE_SEL, slidesWrap)[0]);
                 }
             }
-
             if(options.scrollOverflow){
                 scrollBarHandler.createScrollBarForAll();
             }
@@ -844,7 +844,7 @@
         * Setting options from DOM elements if they are not provided.
         */
         function setOptionsFromDOM(){
-
+           
             //no anchors option? Checking for them in the DOM attributes
             if(!options.anchors.length){
                 var anchorsAttribute = '[data-anchor]';
@@ -877,7 +877,6 @@
                 'height': '100%',
                 'position': 'relative'
             });
-
             //adding a class to recognize the container internally in the code
             addClass(container, WRAPPER);
             addClass($html, ENABLED);
@@ -890,7 +889,6 @@
             addInternalSelectors();
 
             var sections = $(SECTION_SEL);
-
             //styling the sections / slides / menu
             for(var i = 0; i<sections.length; i++){
                 var sectionIndex = i;
@@ -1677,6 +1675,7 @@
         * Scrolls the site to the given element and scrolls to the slide if a callback is given.
         */
         function scrollPage(element, callback, isMovementUp){
+            
             if(element == null){ return; } //there's no element to scroll, leaving the function
 
             var dtop = getDestinationPosition(element);
@@ -3752,12 +3751,14 @@
     function index(item, selector) {
         item = isArrayOrList(item) ? item[0] : item;
         var children = selector != null? $(selector, item.parentNode) : item.parentNode.childNodes;
+        
         var num = 0;
         for (var i=0; i<children.length; i++) {
              if (children[i] == item) return num;
              if (children[i].nodeType==1) num++;
         }
         return -1;
+        
     }
 
     /**

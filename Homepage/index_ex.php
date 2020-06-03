@@ -61,7 +61,7 @@
 			@font-face {font-family: 'S-CoreDream'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 			* { box-sizing: border-box; font-family:S-CoreDream; }
-			html, body {margin:0;padding:0;width:100%;height:100%;-webkit-text-size-adjust:none;overflow:scroll}
+			html, body {margin:0;padding:0;width:100%;height:100%;-webkit-text-size-adjust:none}
 			p, ul, ol, li, dl, dt, dd {list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}
 			img {border:none}
 			address{font-style:unset}
@@ -134,53 +134,44 @@
 	
 
 			/* S : background and styles ------------ */
-			/* S : background and styles ------------ */
-			#section0,
 			#section1,
 			#section2,
 			#section3,
 			#section4,
-			#section5,
-			#section6,
-			#section7,
-			#section8,
-			#section9{
+			#slide0, #slide1, #slide2{
 				background-size: cover;
 				background-attachment: fixed;
-				padding:80px 80px 180px 400px;
 			}
 
 			#section0{
+			//	background-size: initial;
 				background-image: url(./image/BG_PLUSPAY.png);
-				background-size: initial;
+				padding:80px 80px 180px 400px;
 			}
 			#section1{
 				background-image: linear-gradient(22.5deg, rgba(67, 67, 67, 0.02) 0%, rgba(67, 67, 67, 0.02) 29%,rgba(47, 47, 47, 0.02) 29%, rgba(47, 47, 47, 0.02) 37%,rgba(23, 23, 23, 0.02) 37%, rgba(23, 23, 23, 0.02) 55%,rgba(182, 182, 182, 0.02) 55%, rgba(182, 182, 182, 0.02) 69%,rgba(27, 27, 27, 0.02) 69%, rgba(27, 27, 27, 0.02) 71%,rgba(250, 250, 250, 0.02) 71%, rgba(250, 250, 250, 0.02) 100%),linear-gradient(67.5deg, rgba(117, 117, 117, 0.02) 0%, rgba(117, 117, 117, 0.02) 14%,rgba(199, 199, 199, 0.02) 14%, rgba(199, 199, 199, 0.02) 40%,rgba(33, 33, 33, 0.02) 40%, rgba(33, 33, 33, 0.02) 48%,rgba(135, 135, 135, 0.02) 48%, rgba(135, 135, 135, 0.02) 60%,rgba(148, 148, 148, 0.02) 60%, rgba(148, 148, 148, 0.02) 95%,rgba(53, 53, 53, 0.02) 95%, rgba(53, 53, 53, 0.02) 100%),linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 6%,rgba(251, 251, 251, 0.02) 6%, rgba(251, 251, 251, 0.02) 18%,rgba(2, 2, 2, 0.02) 18%, rgba(2, 2, 2, 0.02) 27%,rgba(253, 253, 253, 0.02) 27%, rgba(253, 253, 253, 0.02) 49%,rgba(128, 128, 128, 0.02) 49%, rgba(128, 128, 128, 0.02) 76%,rgba(150, 150, 150, 0.02) 76%, rgba(150, 150, 150, 0.02) 100%),linear-gradient(90deg, #ffffff,#ffffff);
-			}
-			#section2{
-				background-image: repeating-linear-gradient(90deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),repeating-linear-gradient(0deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),linear-gradient(90deg, #ffffff,#ffffff);
+				padding:80px 80px 180px 400px;
 			}
 			#section3{
 				background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+				padding:80px 80px 180px 400px;
 			}
 			#section4{
-				background-image: linear-gradient(22.5deg, rgba(67, 67, 67, 0.02) 0%, rgba(67, 67, 67, 0.02) 29%,rgba(47, 47, 47, 0.02) 29%, rgba(47, 47, 47, 0.02) 37%,rgba(23, 23, 23, 0.02) 37%, rgba(23, 23, 23, 0.02) 55%,rgba(182, 182, 182, 0.02) 55%, rgba(182, 182, 182, 0.02) 69%,rgba(27, 27, 27, 0.02) 69%, rgba(27, 27, 27, 0.02) 71%,rgba(250, 250, 250, 0.02) 71%, rgba(250, 250, 250, 0.02) 100%),linear-gradient(67.5deg, rgba(117, 117, 117, 0.02) 0%, rgba(117, 117, 117, 0.02) 14%,rgba(199, 199, 199, 0.02) 14%, rgba(199, 199, 199, 0.02) 40%,rgba(33, 33, 33, 0.02) 40%, rgba(33, 33, 33, 0.02) 48%,rgba(135, 135, 135, 0.02) 48%, rgba(135, 135, 135, 0.02) 60%,rgba(148, 148, 148, 0.02) 60%, rgba(148, 148, 148, 0.02) 95%,rgba(53, 53, 53, 0.02) 95%, rgba(53, 53, 53, 0.02) 100%),linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 6%,rgba(251, 251, 251, 0.02) 6%, rgba(251, 251, 251, 0.02) 18%,rgba(2, 2, 2, 0.02) 18%, rgba(2, 2, 2, 0.02) 27%,rgba(253, 253, 253, 0.02) 27%, rgba(253, 253, 253, 0.02) 49%,rgba(128, 128, 128, 0.02) 49%, rgba(128, 128, 128, 0.02) 76%,rgba(150, 150, 150, 0.02) 76%, rgba(150, 150, 150, 0.02) 100%),linear-gradient(90deg, #ffffff,#ffffff);
-				
-			}
-			#section5{
-				background: radial-gradient(circle at 57% 36%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 10%,transparent 10%, transparent 100%),radial-gradient(circle at 22% 61%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 68% 97%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 41%,transparent 41%, transparent 100%),radial-gradient(circle at 57% 89%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 30%,transparent 30%, transparent 100%),radial-gradient(circle at 39% 80%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 88% 71%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 30%,transparent 30%, transparent 100%),linear-gradient(0deg, rgb(255,255,255),rgb(255,255,255));
-			}
-			#section6{
 				background:rgba(254,108,147,0.8);
+			//	background-image: linear-gradient(22.5deg, rgba(67, 67, 67, 0.02) 0%, rgba(67, 67, 67, 0.02) 29%,rgba(47, 47, 47, 0.02) 29%, rgba(47, 47, 47, 0.02) 37%,rgba(23, 23, 23, 0.02) 37%, rgba(23, 23, 23, 0.02) 55%,rgba(182, 182, 182, 0.02) 55%, rgba(182, 182, 182, 0.02) 69%,rgba(27, 27, 27, 0.02) 69%, rgba(27, 27, 27, 0.02) 71%,rgba(250, 250, 250, 0.02) 71%, rgba(250, 250, 250, 0.02) 100%),linear-gradient(67.5deg, rgba(117, 117, 117, 0.02) 0%, rgba(117, 117, 117, 0.02) 14%,rgba(199, 199, 199, 0.02) 14%, rgba(199, 199, 199, 0.02) 40%,rgba(33, 33, 33, 0.02) 40%, rgba(33, 33, 33, 0.02) 48%,rgba(135, 135, 135, 0.02) 48%, rgba(135, 135, 135, 0.02) 60%,rgba(148, 148, 148, 0.02) 60%, rgba(148, 148, 148, 0.02) 95%,rgba(53, 53, 53, 0.02) 95%, rgba(53, 53, 53, 0.02) 100%),linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 6%,rgba(251, 251, 251, 0.02) 6%, rgba(251, 251, 251, 0.02) 18%,rgba(2, 2, 2, 0.02) 18%, rgba(2, 2, 2, 0.02) 27%,rgba(253, 253, 253, 0.02) 27%, rgba(253, 253, 253, 0.02) 49%,rgba(128, 128, 128, 0.02) 49%, rgba(128, 128, 128, 0.02) 76%,rgba(150, 150, 150, 0.02) 76%, rgba(150, 150, 150, 0.02) 100%),linear-gradient(90deg, #ffffff,#ffffff);
+				padding:80px 80px 180px 400px;
 			}
-			#section7{
-				background:rgba(254,108,147,0.8);
+			#slide0{
+				background-image: radial-gradient(circle at 57% 36%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 10%,transparent 10%, transparent 100%),radial-gradient(circle at 22% 61%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 68% 97%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 41%,transparent 41%, transparent 100%),radial-gradient(circle at 57% 89%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 30%,transparent 30%, transparent 100%),radial-gradient(circle at 39% 80%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 88% 71%, hsla(263,0%,78%,0.04) 0%, hsla(263,0%,78%,0.04) 30%,transparent 30%, transparent 100%),linear-gradient(0deg, rgb(255,255,255),rgb(255,255,255));
+				padding:80px 80px 180px 400px;
 			}
-			#section7{
-				background:rgba(000,108,147,0.8);
+			#slide1{
+				background-image: repeating-linear-gradient(90deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),repeating-linear-gradient(0deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),linear-gradient(90deg, #ffffff,#ffffff);
+				padding:80px 80px 180px 400px;
 			}
-			#section9{
-				background:rgba(111,108,147,0.8);
+			#slide2{
+				background-image: repeating-linear-gradient(90deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),repeating-linear-gradient(0deg, rgba(246,246,246, 0.1) 0px, rgba(246,246,246, 0.1) 20px,transparent 20px, transparent 40px),linear-gradient(90deg, #ffffff,#ffffff);
+				padding:80px 80px 180px 400px;
 			}
 			/* E : background and styles ------------ */
 			
@@ -226,24 +217,18 @@
 			.bottomtxt100 {font-size:100px;font-family:Baloo;color:#fff}
 			.bottomtxt100_2 {font-size:100px;font-family:Baloo;color:#FFE400}
 			/* S : 원본 수정 */
-			#fp-nav ul li,
-			.fp-slidesNav ul li {
-				margin: 15px;
-			}
 			#fp-nav ul li a span,
 			.fp-slidesNav ul li a span {
 				background: #ff6699;
-				height:10px;width:10px;
 			}
 			#fp-nav ul li:hover a span,
 			.fp-slidesNav ul li:hover a span{
 				background: #fa8478;
-				height:20px;width:20px;
-				margin: -7px 0 0 -6px;
 			}
 			#fp-nav ul li .fp-tooltip {
 				color: #111;
 			}
+
 			.fp-controlArrow.fp-prev {
 				left: 365px;
 				border-color: transparent #fe6c93 transparent transparent;
@@ -253,16 +238,6 @@
 			}
 			#fp-nav.fp-right {
 				right: 57px;
-			}
-			#fp-nav ul li a.active span,
-			.fp-slidesNav ul li a.active span,
-			#fp-nav ul li:hover a.active span,
-			.fp-slidesNav ul li:hover a.active span{
-				background:#FFD9EC;
-				height: 25px;
-				width: 25px;
-				margin: -9px;
-				border:#ff6699 5px solid;
 			}
 			/* E : 원본 수정 */
 			
@@ -419,7 +394,7 @@
 						&nbsp;
 					</li>
 					<li class="menu-txt">
-						<p id="txtchange">파트너 제안</p>
+						파트너 제안
 					</li>
 				</ul>
 			</div>
@@ -436,11 +411,9 @@
 			<div class="line"></div>
 		</div>
 		<div style="position:fixed;top:50px;left:40px;color:white;z-index:9999;" id="callbacksDiv"></div>
-
-
-		<div id="fullpage" style="display:none">
-			<section class="section" id="section0">
-				<div class="outer intro">
+		<div id="fullpage">
+			<div class="section select1" id="section0">
+				<div class="outer intro" style="display:none">
 					<div class="inner">
 						<div class="card">
 							<p class="title"><q> 좀 더 똑똑한 소비습관 </q></p>
@@ -461,9 +434,9 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section class="section" id="section1">
-				<div class="outer intro">
+			</div>
+			<div class="section select1" id="section1">
+				<div class="outer intro" style="display:none">
 					<div class="inner">
 						<div class="card">
 							<p class="title"><q> 위치 정보기반 </q></p>
@@ -486,99 +459,101 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section class="section" id="section2">
-				<div class="outer intro">
-					<div class="inner">
-						<div class="card">
-							<p class="title"><q> 포인트에 대한 생각 </q></p>
-                            <div class="content">
-                                <div class="content_txtarea_100">
-                                    <p class="content_txt_100 fadeInLeft">
-                                        <span class="txt_info">포인트 소멸 및 사용불가</span>
-                                    </p>
-                                    <p class="content_txt_img100 zoomIn">
-                                        <img width="100px" class="img_margin20" src="./image/site_txt1.png" alt="플러스페이 앱">
-                                        <img width="100px" class="img_margin20" src="./image/site_txt2.png" alt="플러스페이 앱">
-                                        <img width="100px" class="img_margin20" src="./image/site_txt3.png" alt="플러스페이 앱">
-                                        <img width="100px" class="img_margin20" src="./image/site_txt4.png" alt="플러스페이 앱">
-                                    </p>
-                                    <p class="content_txt_c2 icon_4 fadeInUp">
-                                        - 생활반경이 변경되거나<br>
-                                        - 단골매장이 폐업하거나<br>
-                                        - 종이쿠폰을 분실하거나 또는 소지하지 않거나<br>
-                                        - 이런 경험 해보지 않으셨나요?
-                                    </p>
-                                    <p class="content_txt_c2 icon_4 fadeInUp">
-                                        - 플러스페이의 포인트는...<br>
-                                        - 전화번호 입력방식 적립으로 본인에게 포인트적립 <br>
-                                        - 이 포인트는 플러스페이의 모든 파트너샵에서 사용가능 하며<br>
-                                        - 기프티콘등의 결제로도 사용가능하여<br>
-                                        - 분실 , 소멸의 우려가 없고 간편합니다.
-                                    </p>
-                                </div>
-                            </div>
+			</div>
+			<div class="section select1" id="section2">
+				<div class="slide" id="slide0">
+					<div class="outer intro" style="display:none">
+						<div class="inner">
+							<div class="card">
+								<p class="title"><q> 포인트에 대한 생각 </q></p>
+								<div class="content">
+									<div class="content_txtarea_100">
+										<p class="content_txt_100 fadeInLeft">
+											<span class="txt_info">포인트 소멸 및 사용불가</span>											
+										</p>
+										<p class="content_txt_img100 zoomIn">
+											<img width="100px" class="img_margin20" src="./image/site_txt1.png" alt="플러스페이 앱"> 
+											<img width="100px" class="img_margin20" src="./image/site_txt2.png" alt="플러스페이 앱"> 
+											<img width="100px" class="img_margin20" src="./image/site_txt3.png" alt="플러스페이 앱"> 
+											<img width="100px" class="img_margin20" src="./image/site_txt4.png" alt="플러스페이 앱">
+										</p>
+										<p class="content_txt_c2 icon_4 fadeInUp">
+											- 생활반경이 변경되거나<br>
+											- 단골매장이 폐업하거나<br>
+											- 종이쿠폰을 분실하거나 또는 소지하지 않거나<br>
+											- 이런 경험 해보지 않으셨나요?
+										</p>
+										<p class="content_txt_c2 icon_4 fadeInUp">
+											- 플러스페이의 포인트는...<br>
+											- 전화번호 입력방식 적립으로 본인에게 포인트적립 <br>
+											- 이 포인트는 플러스페이의 모든 파트너샵에서 사용가능 하며<br>
+											- 기프티콘등의 결제로도 사용가능하여<br>
+											- 분실 , 소멸의 우려가 없고 간편합니다.
+										</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-            <section class="section" id="section3">
-				<div class="outer intro">
-					<div class="inner">
-                        <div class="card">
-                            <p class="title"><q> PlusPAY 포인트 </q></p>
-                            <div class="content">
-                                <div class="content_txtarea_100">
-                                    <p class="content_txt_100 fadeInLeft">
-                                        <span class="txt_info">적극적인 포인트 적립과 공유</span>
-                                    </p>
-                                    <p class="content_txt_img100 lightSpeedIn">
-                                        <img width="100%" class="" src="./image/site_img_1_1.png" alt="플러스페이 앱">
-                                    </p>
-                                    <p class="content_txt_c2 icon_4 fadeInUp">
-                                        - 플러스페이 파트너샵끼리 포인트가 공유되어 <br>
-                                        - 파트너샵 어디서든 내 포인트를 자유롭게 적립/사용가능
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+				<div class="slide" id="slide1">
+					<div class="outer intro" style="display:none">
+						<div class="inner">
+							<div class="card">
+								<p class="title"><q> PlusPAY 포인트 </q></p>
+								<div class="content">
+									<div class="content_txtarea_100">
+										<p class="content_txt_100 fadeInLeft">
+											<span class="txt_info">적극적인 포인트 적립과 공유</span>											
+										</p>
+										<p class="content_txt_img100 lightSpeedIn">
+											<img width="100%" class="" src="./image/site_img_1_1.png" alt="플러스페이 앱">
+										</p>
+										<p class="content_txt_c2 icon_4 fadeInUp">
+											- 플러스페이 파트너샵끼리 포인트가 공유되어 <br>
+											- 파트너샵 어디서든 내 포인트를 자유롭게 적립/사용가능
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</section>
-            <section class="section" id="section4">
-				<div class="outer intro">
-					<div class="inner">
-                        <div class="card">
-                            <p class="title"><q> 포인트 적립과 사용 </q></p>
-                            <div class="content">
-                                <p class="content_txt_i zoomIn"><span class="txt_info">플러스페이 앱에서는 포인트의 다양한 활용이 가능합니다.</span></p>
-                                <p class="content_txt_img35 bounceInDown"><img width="98%" src="./image/Pluspay_img_4.png" alt="플러스페이 앱"></p>
-                                <div class="content_txtarea_65">
-                                    <p class="content_txt_t fadeInLeft"><span class="txt_info">높은 포인트 적립률</span></p>
-                                    <p class="content_txt_c icon_1 fadeInLeft">
-                                        <font color="#FE6C93">어디에도 없는 적립률</font><br>
-                                        플러스페이에서 쿠폰구매/결제하면 사용금액의<br>
-                                        최대2.5% 포인트가 적립됩니다.<br>
-                                        적립률 : 캐시구매 > 정액(선불)권 > 일반상품
-                                    </p>
-                                    <p class="content_txt_t fadeInLeft"><span class="txt_info">다양한 포인트활용</span></p>
-                                    <p class="content_txt_c icon_2 fadeInUp">
-                                        - 파트너샵 어디서나 현금처럼 사용가능<br>
-                                        - 보유한 포인트로 다양한 기프티콘 구매가능
-                                    </p>
-                                    <p class="content_txt_t fadeInLeft"><span class="txt_info">포인트 선물하기</span></p>
-                                    <p class="content_txt_c icon_5 fadeInUp">
-                                        포인트 선물하기 기능을 통해 가족끼리 또는<Br>
-                                        친구끼리 포인트를 모아서 사용할 수 있습니다.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+				<div class="slide" id="slide2">
+					<div class="outer intro" style="display:none">
+						<div class="inner">
+							<div class="card">
+								<p class="title"><q> 포인트 적립과 사용 </q></p>
+								<div class="content">
+									<p class="content_txt_i zoomIn"><span class="txt_info">플러스페이 앱에서는 포인트의 다양한 활용이 가능합니다.</span></p>
+									<p class="content_txt_img35 bounceInDown"><img width="98%" src="./image/Pluspay_img_4.png" alt="플러스페이 앱"></p>
+									<div class="content_txtarea_65">
+										<p class="content_txt_t fadeInLeft"><span class="txt_info">높은 포인트 적립률</span></p>
+										<p class="content_txt_c icon_1 fadeInLeft">
+											<font color="#FE6C93">어디에도 없는 적립률</font><br>
+											플러스페이에서 쿠폰구매/결제하면 사용금액의<br>
+											최대2.5% 포인트가 적립됩니다.<br>
+											적립률 : 캐시구매 > 정액(선불)권 > 일반상품
+										</p>
+										<p class="content_txt_t fadeInLeft"><span class="txt_info">다양한 포인트활용</span></p>
+										<p class="content_txt_c icon_2 fadeInUp">
+											- 파트너샵 어디서나 현금처럼 사용가능<br>
+											- 보유한 포인트로 다양한 기프티콘 구매가능
+										</p>
+										<p class="content_txt_t fadeInLeft"><span class="txt_info">포인트 선물하기</span></p>
+										<p class="content_txt_c icon_5 fadeInUp">
+											포인트 선물하기 기능을 통해 가족끼리 또는<Br>
+											친구끼리 포인트를 모아서 사용할 수 있습니다.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</section>
-			<section class="section" id="section5">
-				<div class="outer intro">
+			</div>
+			<div class="section select1" id="section3">
+				<div class="outer intro" style="display:none">
 					<div class="inner">
 						<div class="card">
 							<p class="title"><q> 사용자 편의성 </q></p>
@@ -602,41 +577,32 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section class="section" id="section6">
-				<div class="outer intro">
+			</div>
+			<div class="section select1" id="section4" style="display:none">
+				<div class="outer intro" style="display:none">
 					<div class="inner">
 						<font class="bottomtxt100">Enjoy the </font>
 						<font class="bottomtxt100_2">Benefits </font>
 					</div>
 				</div>
-			</section>
+			</div>
+            <div class="section select2" id="section5" style="display:none">
+				<div class="outer intro" style="display:none">
+					<div class="inner">
+						<font class="bottomtxt100">Enjoy the </font>
+						<font class="bottomtxt100_2">Benefits </font>
+					</div>
+				</div>
+			</div>
+            <div class="section select2" id="section6" style="display:none">
+				<div class="outer intro" style="display:none">
+					<div class="inner">
+						<font class="bottomtxt100">Enjoy the </font>
+						<font class="bottomtxt100_2">Benefits </font>
+					</div>
+				</div>
+			</div>
 		</div>
-
-		<div id="fullpage2" style="display:none">
-			<section class="section" id="section7">
-				<div class="outer intro">
-					<div class="inner">
-						111111111111111111111111111111111
-					</div>
-				</div>
-			</section>
-			<section class="section" id="section8">
-				<div class="outer intro">
-					<div class="inner">
-						222222222222222222
-					</div>
-				</div>
-			</section>
-			<section class="section" id="section9">
-				<div class="outer intro">
-					<div class="inner">
-						3333333333333333333333333333
-					</div>
-				</div>
-			</section>
-		</div>
-
 
 		<div id="footer">
 			<ul class="com-info">
@@ -665,25 +631,42 @@
 		
 		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 		<script type="text/javascript">
-
-			function fullPageInit(ID) {
-				$('#fullpage' + ID).css('display', 'block');
-				new fullpage('#fullpage' + ID, {
+			$(document).ready(function(){
+				$('#fullpage').fullpage({
 					verticalCentered: false,
 					navigation: true,
+					slidesNavigation: true,
+					navigationTooltips: ['Page 1', 'Page 2', 'Any text!'],
+				//	showActiveTooltip: true,
+				//	menu: '#menu',
+				//	anchors: ['firstPage', 'secondPage', '3rdPage'],
+				//	loopTop: true,
+					loopBottom: true,
+					afterLoad: function(origin, destination, direction){
+						if(destination.index != 2){
+							$('#section' + destination.index + ' .outer').show();
+							if(origin.index || origin.index != '') {
+								$('#section' + origin.index + ' .outer').hide();
+							}
+						}
+						else if(destination.index == 2){
+							$('#section' + destination.index + ' #slide0 .outer').show();
+							if(origin.index || origin.index == 0 || origin.index != '') {
+								$('#section' + origin.index + ' .outer').hide();
+							}
+						}
+					},
+					afterSlideLoad: function(section, origin, destination, direction){
+						$('#section' + section.index + ' #slide' + destination.index + ' .outer').show(); // 현재 섹션의 현재슬라이드 보이기
+						$('#section' + section.index + ' #slide' + origin.index + ' .outer').hide(); // 현재 섹션의 이전슬라이드 숨기기
+					},
+					resetSliders: true,
 					css3:false
 				});
-			//	fullpage_api.reBuild();
-				initialization();
-				fullpage_api.setAllowScrolling(true);
-			//	fullpage_api.reBuild();
-			//	
-			//	fullpage_api.destroy('scrolls');
-			};
-			$(document).ready(function(){
-				fullPageInit('');
+				
+				
 			});
-			
+
 			$('.menu').click(function() {
 				var id = $('.menu').index(this);
 
@@ -696,26 +679,33 @@
 					}
 					var _left = Math.ceil(( $(window).width() - _width ) / 2);
 					var _top = Math.ceil(( $(window).height() - _height ) / 2);
-					$('#fullpage').css('display', 'none');
-					$('#fullpage2').css('display', 'none');
-/*			
+/*
 					$('body').on('scroll touchmove mousewheel', function(event) {
 						event.preventDefault();     
 						event.stopPropagation();     
 						return false; 
-					});
-					*/
-				//	$('body').append("");
-				//	$('body').append("<div id='DIM' style='position:absolute;top:0;left:0;width:100%;height:100%;z-index:888;background:rgba(0,0,0,0.7)'></div>");
+                    });
+                    */
+			//		$('body').append("");
+			//		$('body').append("<div id='DIM' style='position:absolute;top:0;left:0;width:100%;height:100%;z-index:888;background:rgba(0,0,0,0.7)'></div>");
 				}
 
 				if(id == '0') {
 					$('body').append("<div id='PopupWIN' style='position:absolute;top:" + _top + "px;left:" + _left + "px;width:" + _width + "px;height:" + _height + "px;z-index:999;background:#fff'></div>");
 					$('#PopupWIN').load('PayLIST.php');
 				} else if(id == '1') {
-					fullpage_api.destroy('#fullpage');
-				//	initialization();
-					fullPageInit(2);
+                    $('.select1').css('display', 'none');
+                    $('.select2').css('display', 'block');
+                    /*
+					if($( window ).width() > 650) {
+						var _width = $( window ).width() - 350;
+						var _height = $( window ).height() - 200;
+						var _left = '350';
+						var _top =  '50';
+					}
+					$('body').append("<div id='PopupWIN' style='position:absolute;top:" + _top + "px;left:" + _left + "px;width:" + _width + "px;height:" + _height + "px;z-index:999;background:#fff'></div>");
+                    $('#PopupWIN').load('Partner.php');
+                    */
 				} else if(id == '2') {
 					Kakao.init('96575953227dba83884781c00b50b08e')
 					Kakao.Channel.chat({

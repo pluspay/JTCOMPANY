@@ -1,0 +1,213 @@
+{
+  "ftp://jtcompany.phps.kr:21@jtcompany": {
+    ".bash_history": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".bash_logout": {
+      "type": "-",
+      "size": 33,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".bash_profile": {
+      "type": "-",
+      "size": 225,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".fcgi": {},
+    ".mysql_history": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".scoreboard": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".zshrc": {
+      "type": "-",
+      "size": 658,
+      "lmtime": 0,
+      "modified": false
+    },
+    "www": {
+      "Homepage": {
+        "Member.php": {
+          "type": "-",
+          "size": 11243,
+          "lmtime": 1591098770925,
+          "modified": false
+        },
+        "Partner.php": {
+          "type": "-",
+          "size": 11475,
+          "lmtime": 1591093594133,
+          "modified": false
+        },
+        "Partner2.php": {
+          "type": "-",
+          "size": 2635,
+          "lmtime": 1591098766304,
+          "modified": false
+        },
+        "PayLIST.php": {
+          "type": "-",
+          "size": 9301,
+          "lmtime": 0,
+          "modified": false
+        },
+        "SitePluspay.css": {
+          "type": "-",
+          "size": 11055,
+          "lmtime": 1591156030500,
+          "modified": false
+        },
+        "css": {
+          "full-page-scroll.css": {
+            "type": "-",
+            "size": 1565,
+            "lmtime": 0,
+            "modified": false
+          },
+          "fullpage.css": {
+            "type": "-",
+            "size": 5236,
+            "lmtime": 1591080519099,
+            "modified": false
+          },
+          "reset.min.css": {
+            "type": "-",
+            "size": 773,
+            "lmtime": 0,
+            "modified": false
+          }
+        },
+        "image": {},
+        "index.php": {
+          "type": "-",
+          "size": 37824,
+          "lmtime": 1591094105043,
+          "modified": false
+        },
+        "index0.php": {
+          "type": "-",
+          "size": 21120,
+          "lmtime": 0,
+          "modified": false
+        },
+        "index2.php": {
+          "type": "-",
+          "size": 37953,
+          "lmtime": 1591097521204,
+          "modified": false
+        },
+        "index3.php": {
+          "type": "-",
+          "size": 10848,
+          "lmtime": 1591156114745,
+          "modified": false
+        },
+        "index_ex.php": {
+          "type": "-",
+          "size": 37513,
+          "lmtime": 1590743681255,
+          "modified": false
+        },
+        "index_plus.php": {
+          "type": "-",
+          "size": 32067,
+          "lmtime": 1591071818427,
+          "modified": false
+        },
+        "index_원본.php": {
+          "type": "-",
+          "size": 36136,
+          "lmtime": 1590720157294,
+          "modified": false
+        },
+        "js": {
+          "common.ui.js": {
+            "type": "-",
+            "size": 6971,
+            "lmtime": 0,
+            "modified": false
+          },
+          "full-page-scroll.js": {
+            "type": "-",
+            "size": 7768,
+            "lmtime": 0,
+            "modified": true
+          },
+          "fullpage.js": {
+            "type": "-",
+            "size": 151763,
+            "lmtime": 1591092993844,
+            "modified": false
+          },
+          "fullpage.min.js": {
+            "type": "-",
+            "size": 38006,
+            "lmtime": 0,
+            "modified": false
+          },
+          "jquery-3.4.1.min.js": {
+            "type": "-",
+            "size": 88145,
+            "lmtime": 0,
+            "modified": false
+          },
+          "jquery-ui.js": {
+            "type": "-",
+            "size": 521238,
+            "lmtime": 0,
+            "modified": false
+          },
+          "jquery.actual.js": {
+            "type": "-",
+            "size": 3195,
+            "lmtime": 0,
+            "modified": false
+          },
+          "lodash.min.js": {
+            "type": "-",
+            "size": 50543,
+            "lmtime": 0,
+            "modified": false
+          },
+          "swiper.min.js": {
+            "type": "-",
+            "size": 139555,
+            "lmtime": 0,
+            "modified": false
+          }
+        },
+        "plus.php": {
+          "type": "-",
+          "size": 25851,
+          "lmtime": 1591090775887,
+          "modified": false
+        }
+      },
+      "_config.yml": {
+        "type": "-",
+        "size": 26,
+        "lmtime": 0,
+        "modified": false
+      },
+      "index.html": {
+        "type": "-",
+        "size": 7,
+        "lmtime": 0,
+        "modified": true
+      }
+    }
+  },
+  "$version": 1
+}
