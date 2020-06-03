@@ -102,11 +102,12 @@
 
 		<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
 		<script type="text/javascript" src="./js/fullpage.js"></script>
+		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 	</head>
 
 	<body>
 		<div id="header">
-			<img src="./image/Logo_pluspay_c_w.png" height="100%" alt="플러스페이">
+			<img src="./image/Logo_pluspay_c_w.png" height="100%" alt="플러스페이">dddddd
 		</div>
 		
 		<div id="LeftLayer">
@@ -152,9 +153,7 @@
 			<div class="line"></div>
 		</div>
 
-		<div style="position:fixed;top:50px;left:40px;color:white;z-index:9999;" id="callbacksDiv"></div>
         <div id="main">
-
         </div>
 		<div id="footer">
 			<ul class="com-info">
@@ -181,17 +180,17 @@
 			</ul>
 		</div>
 		
-		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+		
 		<script type="text/javascript">
             $(document).ready(function(){
 				$('#main').load('Member.php');
 			});
+
 			$('.menu').click(function() {
 				var id = $('.menu').index(this);
+
 				if(id == '0') {
-				//	$('#main').load('PayLIST.php');
-                    fullpage_api.destroy('#fullpage');
-                    $('#main').load('Partner2.php');
+					$('#main').load('PayLIST.php');
 				} else if(id == '1') {
                     if($("#txtpartner").css("display") == "none"){
                         $("#txtpartner").show();
@@ -200,7 +199,7 @@
                     } else {
                         $("#txtmember").show();
                         $("#txtpartner").hide();
-                        $('#main').load('Partner2.php')
+                        $('#main').load('Partner.php')
                     }
 					fullpage_api.destroy('#fullpage');
 				} else if(id == '2') {

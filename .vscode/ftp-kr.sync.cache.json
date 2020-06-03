@@ -47,8 +47,8 @@
         },
         "Partner.php": {
           "type": "-",
-          "size": 11475,
-          "lmtime": 1591093594133,
+          "size": 2598,
+          "lmtime": 1591157778302,
           "modified": false
         },
         "Partner2.php": {
@@ -63,29 +63,17 @@
           "lmtime": 0,
           "modified": false
         },
-        "SitePluspay.css": {
-          "type": "-",
-          "size": 11055,
-          "lmtime": 1591156030500,
-          "modified": false
-        },
         "css": {
-          "full-page-scroll.css": {
+          "SitePluspay.css": {
             "type": "-",
-            "size": 1565,
+            "size": 10921,
             "lmtime": 0,
-            "modified": false
+            "modified": true
           },
           "fullpage.css": {
             "type": "-",
             "size": 5236,
             "lmtime": 1591080519099,
-            "modified": false
-          },
-          "reset.min.css": {
-            "type": "-",
-            "size": 773,
-            "lmtime": 0,
             "modified": false
           }
         },
@@ -110,8 +98,8 @@
         },
         "index3.php": {
           "type": "-",
-          "size": 10848,
-          "lmtime": 1591156114745,
+          "size": 10640,
+          "lmtime": 1591157772009,
           "modified": false
         },
         "index_ex.php": {

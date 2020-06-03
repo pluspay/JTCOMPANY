@@ -59,13 +59,13 @@ address{font-style:unset}
 .txt_02 {height:35px; line-height:35px;font-size:14px;color:#FFFF5A}
 
 .menu {width:100%;height:70px;margin-top:20px;padding:0 20px;border-radius:40px;background:rgba(254,108,147,0.8);cursor:pointer;text-align:left}
-.menu-img {content:"";display:inline-block;background:url('../image/icon-menu.png') no-repeat;background-size:auto 70px}
+.menu-img {float:left;content:"";display:inline-block;background:url('../image/icon-menu.png') no-repeat;background-size:auto 70px}
 .menu-search {width:70px;height:70px;background-position:1px 0px}
 .menu-partner {width:70px;height:70px;background-position:-60px 0px}
 .menu-kakao {width:70px;height:70px;background-position:-121px 0px}
 .menu-home {width:70px;height:70px;background-position:-181px 0px}
 .menu-shopuser {width:70px;height:70px;background-position:-241px 0px}
-.menu-txt {width:calc(100% - 70px);height:100%;padding:0 20px;line-height:70px;color:#FFFFDE}
+.menu-txt {float:left;width:calc(100% - 70px);height:100%;padding:0 20px;line-height:70px;color:#FFFFDE}
 .line {width:100%;height:1px;margin:30px 0;background:#fe6c93}
 /* E : Fixed LeftLayer ------------------ */
 
@@ -123,10 +123,10 @@ address{font-style:unset}
 
 
 /* S : box & text  ---------------------- */
-.outer {display:table;width:100%;height:100%;background:red}
+.outer {display:table;width:100%;height:100%;}
 .inner {display:table-cell;text-align:center;vertical-align:middle}
 .card {display:inline-block;width:645px;height:100%;border-radius:15px;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);overflow:hidden}
-.title {width:100%;height:80px;line-height:80px;background:#fa8478;font-family:'S-CoreDream-5Medium';color:#fff;font-size:28px}
+.title {width:100%;height:80px;line-height:80px;background:#494848;font-family:'S-CoreDream-5Medium';color:#fff;font-size:28px}
 .content {width:100%;height:100%;padding:20px;text-align:left}
 .content_txt_i {display:inline-block;position:relative;height:60px;font-size:18px;color:#FE6C93}
 .content_txt_i:before {content:'';display:block;position:absolute;left:-4px;right:-4px;bottom:35px;height:8px;background-color:#FFEBFE;border-radius:2px}
